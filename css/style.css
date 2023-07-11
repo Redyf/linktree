@@ -1,0 +1,151 @@
+body,
+html {
+  background: linear-gradient(to bottom, #719ac3, #c2b5d5, #d8a4ba) no-repeat
+    center center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+}
+
+.pfp {
+  width: 120px;
+  height: 120px;
+  border-radius: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto 30px auto;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.bio {
+  font-size: 24px;
+  text-align: center;
+  color: #d9e0ee;
+}
+
+.socials {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+}
+
+.github {
+  width: 80%;
+  height: 100px;
+  border-radius: 15px;
+  margin: 15px;
+  box-shadow: 4px 4px 5px #789cc7;
+  transition: all 1s;
+  font-size: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.fa-github {
+  font-size: 35px;
+  margin-right: 30px;
+}
+
+.discord {
+  width: 80%;
+  height: 100px;
+  border-radius: 15px;
+  margin: 15px;
+  box-shadow: 4px 4px 5px #789cc7;
+  transition: all 1s;
+  font-size: 25px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+
+.fa-discord {
+  font-size: 30px;
+  margin-right: 28px;
+}
+
+.website {
+  width: 80%;
+  height: 100px;
+  border-radius: 15px;
+  margin: 15px;
+  box-shadow: 4px 4px 5px #789cc7;
+  transition: all 1s;
+  font-size: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.fa-link {
+  margin-right: 25px;
+}
+
+.email {
+  width: 80%;
+  height: 100px;
+  border-radius: 15px;
+  margin: 15px;
+  box-shadow: 4px 4px 5px #789cc7;
+  transition: all 1s;
+  font-size: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.fa-envelope {
+  font-size: 30px;
+  margin-right: 30px;
+}
+
+.github:hover {
+  transform: scale(1.05);
+}
+.website:hover {
+  transform: scale(1.05);
+}
+.discord:hover {
+  transform: scale(1.05);
+}
+.email:hover {
+  transform: scale(1.05);
+}
+
+.icons {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  gap: 40px;
+  margin: 30px auto 120px auto;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  font-size: 60px;
+}
+a:active {
+  text-decoration: none;
+}
